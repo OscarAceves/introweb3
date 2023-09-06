@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Aqui van los estilos en documento externo-->
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+
+    <H1>Introducción a CSS</H1><br>
+
+    <h2>Este parrafo tiene estilos en linea (inline)</h2>
+
+    <p style="background-color: burlywood; color: brown; font-size: large; font-family: 'Courier New', Courier, monospace;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident itaque repellat saepe! Exercitationem, sint magni repudiandae ipsum eum consequatur! Voluptas suscipit ipsa quibusdam voluptatum architecto provident repudiandae voluptatibus a omnis. <br></p>
+
+    <style>
+        body {
+            background-color: aquamarine;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: larger;        
+        }
+
+    </style>
+
+    <h2>Este parrafo tiene etiqueta style</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat repudiandae, in doloremque sequi facere commodi dolorum aliquid delectus maiores provident vel nostrum aspernatur adipisci eaque consequatur atque libero ipsum minus.</p><br>
+
+    <h2>Este parrafo tiene estilos en un documento externo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque corporis distinctio rem delectus vero earum ipsam illo, commodi eum atque laboriosam numquam provident omnis et nobis maxime quia amet!</p>
+
+    <!--lista de participantes e instructores de Generation-->
+    <h1 class="CH31" id="Aaron">Aaron</h1>
+    <h1 class="CH31" id="Brandon">Brandon</h1>
+    <h1 class="CH31" id="Antonio">Antonio</h1>
+    <h1 class="CH31" id="Edna">Edna</h1>
+    <h1 class="CH31" id="Tania">Tania</h1>
+
+</body>
+</html>
+
+<!--
+    Formas de agregar estilos a documento HTML
+    -inline
+    -usando etiquetas <style>
+    -referencia aun documento de estilos exrterno (mejor práctica)
+
+    inline
+    Para trabajar con 
+    
+    etiqueta style
+    Cuando usamos los estilos dentro de la etiqueta style , "separamos" los estilos de la etiqueta, para mantener una "limpieza" mas marcada.
+    Esto ayuda a que el código se vea más limpio
+
+    referencia a documento externo
+    Utilizar estilos en un documento externo significa que tendremos 2 documentos: por un lado el index.html con toda la estructura (etiquetas), y por otro lado tendremos un documento llamado style.css
+
+    Cosas a considerar al trabajar en documento de estilos externo
+        -llamar a nuestro documento style.css
+        -Tener bases solidas en temas de selectores
+        -la conexion entre el documento de html y los estilos de css se tiene que realizar dentro del head
+
+    Para conectar la hoja de datos externa se tiene que usar la etiqueta llamada link
+
+-->
